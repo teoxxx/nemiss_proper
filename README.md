@@ -6,7 +6,7 @@ Updated: 201123, 281123
 
 A folder with a pipeline setup to run PLUTO-nemiss-rlos2 resides in the current repo, minus the sim data of course. it is called torblob18dummies.
 
-repo also includes a folder with the three files needed to run a pluto sim, at the neutrino scale. Furthermore, the userdef_output.c modified PLUTO file is there, with the modification to produce required PLUTO dummy data files, that shall act as containers for the output of nemiss. PLUTO reads this file as a priority from the run folder, versus the one in the source PLUTO folder. 
+repo also includes a folder with the three files needed to run a pluto sim, at the neutrino scale. The modified pluto.ini PLUTO file is there, with the modification to produce required PLUTO dummy data files, that shall act as containers for the output of nemiss. PLUTO reads this file as a priority from the run folder, versus the one in the source PLUTO folder. 
 
 Careful, PLUTO 4.2 is used in this version of the pipeline. It should reside in the system and its setup.py file, located in PLUTO dir, should be called appropriately from the run folder. 
 
