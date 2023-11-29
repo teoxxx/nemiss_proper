@@ -40,9 +40,9 @@ if it compiles well, then good to go. run: mpirun -n 4 ./pluto -x2jet (four core
 
 wait for hydrocode to end.
 
-open nemiss in mathematica
+open nemiss in mathematica. set the path, near the beginning of nemiss, to the location of main folder torblob18dummies. check param filenames. run first cells that read params from external files, and verify it all works well. carry on till it calculates emission from a sample cell. if it is ok, then run it fully, using command evaluate notebook from the mathematica menus.
 
-run it, till the main loop that calculates nemission at eligible cells. then run next big cell, that writes results to pluto 'dummy' vars.  If all is well, we now have a large number of pluto data files with nemiss output. DO NOT RERUN PLUTO now in this dir, else we lose nemiss output. and nemiss is slower than pluto!
+run it, till the main loop that calculates nemission at eligible cells. wait a long time! then run next big cell, that writes results to pluto 'dummy' vars.  If all is well, we now have a large number of pluto data files with nemiss output. DO NOT RERUN PLUTO now in this dir, else we lose nemiss output. and nemiss is slower than pluto!
 
 Now: run idl and open rlos. run it, reading pluto data files, some of them with nemiss content! 
 
