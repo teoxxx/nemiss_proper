@@ -19,7 +19,10 @@ Finally, a folder with nemiss. nemiss also includes pload_4d, which is an extend
 The above files also exist mixed together in the main run folder, torblob18dummies. 
 
 Actually, in order to run,  files need to be in the same folder. But they are also placed at separate folders for clarity.
+
 In experimental_nemiss subfolder, minor upgrades were made, e.g. nemiss091123 fixes a bug in relation to TR11 relativistic conversion of a hot proton power-law particle distribution.
+
+PLease see also the repository github.com/teoxxx/nemiss_pbl for development files and older stuff about nemiss.
 
 ****How to run: (directions revolving around ubuntu linux setup)****
 
