@@ -21,4 +21,4 @@ The above files also exist mixed together in the main run folder, torblob18dummi
 Actually, in order to run,  files need to be in the same folder. But they are also placed at separate folders for clarity.
 
 
-In experimental folder, minor upgrades were made, e.g. nemiss091123 fixes a bug in relation to TR11 relativistic conversion of a hot proton power-law particle distribution.
+In experimental_nemiss subfolder, minor upgrades were made, e.g. nemiss091123 fixes a bug in relation to TR11 relativistic conversion of a hot proton power-law particle distribution.
