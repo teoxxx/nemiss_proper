@@ -1,0 +1,12 @@
+USER           = teodor
+WORKING_DIR    = /home/teodor/Downloads/gitstuff/pluto42_twinjet_data/PLUTO42/PLUTO/Test_Problems/RMHD/torblob18dummies
+SYSTEM_NAME    = Linux
+NODE_NAME      = ubuntu2teo
+RELEASE        = 4.4.0-190-generic
+ARCH           = x86_64
+BYTE_ORDER     = little
+VERSION        = #220-Ubuntu SMP Fri Aug 28 23:02:15 UTC 2020
+PLUTO_DIR      = /home/teodor/Downloads/gitstuff/pluto42_twinjet_data/PLUTO42/PLUTO
+PLUTO_VERSION  = "4.2"
+C_COMPILER     = gcc
+MPI_C_COMPILER = mpicc
