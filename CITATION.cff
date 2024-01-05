@@ -1,0 +1,16 @@
+cff-version: 1.1.0
+message: "Please cite the following works when using this software: https://ui.adsabs.harvard.edu/abs/2023ascl.soft11015S"
+authors:
+- family-names: Smponias
+  given-names: Theodoros
+title: "nemiss: Neutrino emission from hydrocode data"
+version: PLACEHOLDER
+date-released: PLACEHOLDER
+identifiers:
+ - type: "ascl-id"
+   value: "2311.015"
+ - type: "doi"
+   value: PLACEHOLDER
+ - type: "bibcode"
+   value: "2023ascl.soft11015S"
+abstract: "nemiss calculates neutrino emission from an astrophysical jet. nemiss works as part of the PLUTO-nemiss-rlos pipeline. PLUTO (ascl:1010.045) produces a hydrodynamical jet. Then, nemiss calculates beamed neutrino emission at each eligible cell along a given direction in space. Finally, rlos (ascl:1811.009) produces a synthetic neutrino image of the jet along the given direction, taking into consideration the finite nature of the speed of light."
